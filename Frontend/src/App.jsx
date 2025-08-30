@@ -6,6 +6,7 @@ import Contact from './Contact'
 import Register from './Register'
 import Services from './Services'
 import Login from './Login'
+import { Footer } from './Footer'
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
       
       </BrowserRouter>
 
-
+<Footer/>
 
     </div>
   )
