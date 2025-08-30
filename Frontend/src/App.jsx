@@ -6,9 +6,13 @@ import Home from './Home'
 import Register from './Register'
 import Services from './Services'
 import Login from './Login'
+
 import EnquiryFrom from './EnquiryForm'
 import EnquirySubmitPage from './EnquirySubmitPage'
 import Contact1 from './Contact1'
+
+import { Footer } from './Footer'
+
 
 const App = () => {
   return (
@@ -29,7 +33,7 @@ const App = () => {
       
       </BrowserRouter>
 
-
+<Footer/>
 
     </div>
   )
