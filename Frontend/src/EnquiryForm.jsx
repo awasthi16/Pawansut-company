@@ -10,27 +10,27 @@ function EnquiryFrom(){
   const[description , setdescription]=useState("")
 
 
-//   const navigate = useNavigate();
-//   const auth = JSON.parse(localStorage.getItem("user"));
+  const navigate = useNavigate();
+  const auth = JSON.parse(localStorage.getItem("user"));
 
 
-//   const enquirySubmit = async()=>{
-//     let result= await fetch("http://localhost:5000/enquiryFrom",{
-//       method: "post",
-//       body: JSON.stringify({name, email , phone , enquiry , description}),
-//       headers:{ "content-type":"application/json"}
-//     })
-//   result = await result.json()
+  const enquirySubmit = async()=>{
+    let result= await fetch("http://localhost:5000/enquiryFrom",{
+      method: "post",
+      body: JSON.stringify({name, email , phone , enquiry , description}),
+      headers:{ "content-type":"application/json"}
+    })
+  result = await result.json()
 
-//    if(!auth){
-//           navigate("/sign")
-//       }else{
-//         localStorage.setItem("enquiry",JSON.stringify(result))
-//           // alert("please enter correct details")
-//           alert("Your enquiry has been submitted")
-//         }
-//       console.log(result)
-//   }
+   if(!auth){
+          navigate("/sign")
+      }else{
+        localStorage.setItem("enquiry",JSON.stringify(result))
+          // alert("please enter correct details")
+          alert("Your enquiry has been submitted")
+        }
+      console.log(result)
+  }
 
 return(
     <>

@@ -1,0 +1,127 @@
+/* .login-container {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 60px;
+   margin-bottom: 60px;
+  padding: 30px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-container button:hover {
+  background-color: #0051a3;
+}
+
+.login-links {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-links a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+} */
+
+
+
+
+.sign-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-center {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.sign-center h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.log-center .inp1 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inp1 input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.log-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.log-btn:hover {
+  background-color: #0056b3;
+}
+
+.for {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.for a, .for p {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.for a:hover, .for p:hover {
+  text-decoration: underline;
+}

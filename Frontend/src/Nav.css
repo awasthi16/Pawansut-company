@@ -64,3 +64,71 @@
   background-size: 18px; /* size of search icon */
 }
 
+
+.profile-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-profile-pic{
+    display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+}
+
+.nav-profile-pic img{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  width: 45px;
+  height: 45px; 
+}
+
+
+/* Responsive Rules */
+/* @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+  }
+
+} */
+
+
+.login-btn{
+  background-color: #f9f9fb;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.login-btn a{
+  color: white;
+    font-size: 14px;
+}

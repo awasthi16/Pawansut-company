@@ -12,6 +12,7 @@ import EnquirySubmitPage from './EnquirySubmitPage'
 import Contact1 from './Contact1'
 
 import { Footer } from './Footer'
+import Sign from './Sign'
 
 
 const App = () => {
@@ -21,13 +22,16 @@ const App = () => {
       <Nav/>
       <Routes>
       
-          <Route path="/" element={<Home/>}/> 
-     <Route path="/contact" element={<Contact1/>}/>
-     <Route path="/register" element={<Register/>}/>
-        <Route path="/service" element={<Services/>}/> 
-   <Route path="/login" element={<Login/>}/> 
+ <Route path="/" element={<Home/>}/> 
+ <Route path="/contact" element={<Contact1/>}/>
+ <Route path="/register" element={<Register/>}/>
+<Route path="/service" element={<Services/>}/> 
+<Route path="/login" element={<Login/>}/> 
 <Route path='/enquiryfrom' element={<EnquiryFrom/>}/>
 <Route path='/EnquirySubmitPage' element={<EnquirySubmitPage/>}/>
+<Route path='/sign' element={<Sign/>}/>
+
+
 
       </Routes>
       
