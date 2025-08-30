@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import EnquiryFrom from './EnquiryForm'
 
 const Contact1 = () => {
   return (
-    <div>Contact1
+    <div>
+<EnquiryFrom/>
 
-  <Link to='/enquiryfrom'> Enquiry</Link>
+  {/* <Link to='/enquiryfrom'> Enquiry</Link> */}
 
 
 

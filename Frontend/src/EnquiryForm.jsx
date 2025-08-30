@@ -61,8 +61,8 @@ return(
         Fields marked with * are mandatory. <br />
         You can enquire about our services , fees, timings, Society or any other help.
       </p>
-      {/* <form action={enquirySubmit}> */}
-        <form >
+      <form action={enquirySubmit}>
+        {/* <form onSubmit={}> */}
         <label>Name* :</label>
         <input name="name" type="text" placeholder="Enter your Name"  required  onChange={(e)=>setname(e.target.value)} />
 
