@@ -1,0 +1,425 @@
+/* 🌍 Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 🔹 Section 1 */
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 15px;
+  background: #fff;
+  gap: 10px;
+}
+
+.imge img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.conten {
+  flex: 1;
+  min-width: 300px;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 12px;
+  /* padding: 20px; */
+  text-align: center;
+  font-size: clamp(12px, 1.2vw, 15px);
+}
+
+.conten h1 {
+  color: #004cff;
+  font-size: clamp(20px, 2.5vw, 28px);
+  /* margin-bottom: 10px; */
+}
+
+.ms {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 15px; */
+}
+
+.m {
+  padding: 8px 15px;
+  border: 1px solid #004cff;
+  border-radius: 10px;
+  font-size: clamp(12px, 1vw, 14px);
+  color: #004cff;
+  background: #f0f6ff;
+  text-align: center;
+}
+
+/* 🔹 Section 2: Rules */
+.second {
+  background: #ececec;
+  padding: 40px 20px;
+}
+
+.r {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+}
+
+.r h1 {
+  color: #004cff;
+  margin-bottom: 20px;
+  font-size: clamp(20px, 2.5vw, 28px);
+}
+
+.r1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: clamp(12px, 1.2vw, 15px);
+}
+
+.rc {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.rc a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.rc a:hover {
+  color: red;
+}
+
+/* 🔹 Section 3: Banner */
+.third {
+  width: 100%;
+  min-height: 40vh;
+  background: url("/src/assets/Screenshot 2025-08-25 145301.png") center/cover no-repeat fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aq {
+  background: rgba(0, 0, 255, 0.4);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  gap: 500px;
+}
+
+.aq h1 {
+  font-size: clamp(18px, 2vw, 26px);
+}
+
+.aq button {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: clamp(14px, 1.2vw, 16px);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.aq button:hover {
+  background: #fff;
+  color: #004cff;
+}
+
+/* 🔹 Section 4: Income Cards */
+.four {
+  padding: 50px 20px;
+  background: url("/src/assets/Screenshot 2025-08-25 145301.png") center/cover fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.aw {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.qwer {
+  flex: 1 1 300px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+}
+
+.qwer img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.qwer h3 {
+  margin: 10px 0;
+  font-size: clamp(16px, 1.5vw, 20px);
+  color: #004cff;
+}
+
+.qwer p {
+  font-size: clamp(12px, 1.2vw, 14px);
+}
+
+.qwer a {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #004cff;
+}
+
+/* 🔹 Section 5: Strengths */
+.fifth {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.strengths {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: #f5f9ff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img, .card svg {
+  width: 50px;
+  margin-bottom: 10px;
+  filter: invert(33%) sepia(98%) saturate(2000%) hue-rotate(190deg);
+}
+
+.card h3 {
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: bold;
+}
+
+/* 🔹 Section 6: Mission & Values */
+.sixth {
+  padding: 50px 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission, .values {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  flex: 1 1 300px;
+}
+
+.mission h2, .values h2 {
+  color: #004cff;
+  margin-bottom: 15px;
+  font-size: clamp(18px, 2vw, 24px);
+}
+
+.value-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.value-grid .card {
+  flex: 1 1 140px;
+  padding: 15px;
+}
+
+/* 📱 Mobile First */
+@media (max-width: 600px) {
+  .first, .second, .four, .fifth, .sixth {
+    padding: 20px 10px;
+  }
+
+  .r1 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .aw {
+    flex-direction: column;
+  }
+
+  .qwer {
+    width: 100%;
+  }
+
+  .strengths {
+    flex-direction: column;
+  }
+
+  .container {
+    /* flex-direction: column; */
+  }
+  .aq{
+    gap: 150px;
+  }
+}
+
+/* 📲 Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+  .r1 {
+    flex-direction: column;
+  }
+
+  .aw {
+    flex-wrap: wrap;
+  }
+
+  .qwer {
+    flex: 1 1 45%;
+  }
+
+  .strengths {
+    justify-content: center;
+  }
+
+  .card {
+    flex: 1 1 45%;
+  }
+  .aq{
+    gap: 200px;
+  }
+}
+
+
+
+/* 🔹 Section 4: Income Cards */
+.four {
+  padding: 50px 20px;
+  background: url("/src/assets/Screenshot 2025-08-25 145301.png") center/cover fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.aw {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+/* Each card */
+.qwer {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+  overflow: visible;   /* ✅ ensure text is never cut */
+  padding-bottom: 15px;
+}
+
+/* ✅ Image full width, auto height */
+.qwer img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  display: block;
+}
+
+.qwer h3 {
+  margin: 12px 0;
+  font-size: clamp(16px, 1.5vw, 20px);
+  color: #004cff;
+}
+
+.qwer p {
+  font-size: clamp(13px, 1.2vw, 15px);
+  padding: 0 10px;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+}
+
+.qwer a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #004cff;
+}
+
+/* 📱 Mobile */
+@media (max-width: 600px) {
+  .aw {
+    flex-direction: column;
+  }
+
+  .qwer {
+    width: 100%;
+  }
+
+  .qwer img {
+    width: 100%;
+    height: auto;        /* ✅ don’t crop image */
+    object-fit: contain; /* ✅ show full image */
+  }
+
+  .qwer p {
+    font-size: 14px;
+    text-align: left;    /* easier to read on phone */
+  }
+}
+
+/* 📲 Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .qwer {
+    flex: 1 1 45%;
+  }
+}
+
+/* 💻 Desktop */
+@media (min-width: 901px) {
+  .qwer {
+    flex: 1 1 30%;
+  }
+}
