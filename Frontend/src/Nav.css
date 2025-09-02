@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  overflow-x: hidden;
+    /* font-family: 'Segoe UI', sans-serif; */
+}
+
+.navbar {
+  padding: 5px 60px;
+  height: 80px;
+    background: rgb(69, 69, 105);
+  /* background: rgba(84, 65, 134, 0.747); */
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+.navbar a {
+  text-decoration: none;
+  color: white; /* default link color */
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  overflow-y: hidden;
+}
+
+
+.navbar a:hover {
+  color: #ffcc00;  /* yellow on hover */
+  transform: scale(1.1); /* slight zoom */
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #ffcc00;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.search-form input {
+  padding: 8px 35px 8px 12px; /* extra space for the icon */
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #fff url("https://cdn-icons-png.flaticon.com/512/622/622669.png") no-repeat right 10px center;
+  background-size: 18px; /* size of search icon */
+}
+
+
+.profile-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-profile-pic{
+    display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+}
+
+.nav-profile-pic img{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  width: 45px;
+  height: 45px; 
+}
+
+
+/* Responsive Rules */
+/* @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+  }
+
+} */
+
+
+.login-btn{
+  background-color: #f9f9fb;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.login-btn a{
+  color: white;
+    font-size: 14px;
+}

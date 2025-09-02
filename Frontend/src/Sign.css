@@ -1,0 +1,105 @@
+/* .sign-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.sign-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sign-form input
+ {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.sign-form select{
+     width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+
+.sign-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sign-form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 500px) {
+  .sign-form {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .sign-form h2 {
+    font-size: 1.5rem;
+  }
+} */
+
+
+
+.sign-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.sign-container h2 {
+  margin-bottom: 20px;
+}
+
+.sign-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.sign-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sign-container button:hover {
+  background-color: darkblue;
+}
+
+.sign-container a {
+  color: royalblue;
+  text-decoration: none;
+}
+
